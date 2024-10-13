@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4c8a67;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #5a737b;
+    margin-bottom: 15px;
+  }
+  
+  .fact {
+    background-color: #e2f0ed;
+    border: 1px solid #b6c9c7;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fact h3 {
+    color: #4c8a67;
+    margin-bottom: 10px;
+  }
+  
+  .fact p {
+    margin: 5px 0;
+  }
+  
+  .fact button {
+    background-color: #91c7b1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .fact button:hover {
+    background-color: #7dbba1;
+  }
+  
+  .fact input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #b6c9c7;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+  }
+
+  .group-form, .tag-manager {
+    background-color: #f7f2e8;
+    border: 1px solid #d4c8b4;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .group-form input, .tag-manager input {
+    padding: 8px;
+    border: 1px solid #d4c8b4;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+  }
+  
+  .group-form button, .tag-manager button {
+    background-color: #f0c987;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .group-form button:hover, .tag-manager button:hover {
+    background-color: #e0b676;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #91c7b1;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  
+  .tag button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .tag button:hover {
+    color: #ff7979;
+  }
+
+  button:focus, input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
